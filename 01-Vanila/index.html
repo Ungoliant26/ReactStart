@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanila JS</title>
+    <style>
+      .app {
+        text-align: center;
+      }
+      .blue-button {
+        color: white;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <button
+        id="my-push1"
+        onclick="new Audio('../audioTest/ston1.ogg').play()"
+      >
+        Click me
+      </button>
+      <button
+        id="my-push2"
+        onclick="new Audio('../audioTest/ston2.ogg').play()"
+      >
+        Touch me
+      </button>
+    </div>
+    <!-- <script>
+      function renameButton(id) {
+        const myButton = document.getElementById(id)
+        myButton.innerHTML = 'Hello Noob'
+        myButton.className = 'blue-button'
+      }
+    </script> -->
+  </body>
+</html>
