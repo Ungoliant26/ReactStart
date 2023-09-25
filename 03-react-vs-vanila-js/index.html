@@ -11,16 +11,18 @@
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script>
-      const helloNoob = React.createElement('h1', null, 'Hello Noob JS')
+      const reactNoob = React.createElement('h1', null, 'Hello Noob JS')
+      console.log(reactNoob)
 
       const container = document.getElementById('react-app')
       const root = ReactDOM.createRoot(container)
-      root.render(helloNoob)
+      root.render(reactNoob)
     </script>
     <script>
-      const head1 = document.createElement('h1')
-      head1.textContent = 'Hello Noob VanillaJS'
-      document.getElementById('vanilla-app').appendChild(head1)
+      const vanilaHead = document.createElement('h1')
+      vanilaHead.textContent = 'Hello Noob VanillaJS'
+      console.log(vanilaHead)
+      document.getElementById('vanilla-app').appendChild(vanilaHead)
     </script>
   </body>
 </html>
