@@ -4,7 +4,7 @@ function Button1({ onClick }) {
 
 function Button2({ onClick }) {
   return (
-    <button onClick={onClick} disabled>
+    <button onClick={onClick} disabled={true}>
       Click here +10
     </button>
   )
