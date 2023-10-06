@@ -1,0 +1,12 @@
+h1 {
+  color: red;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+}
+
+.my-knopka {
+  background-color: blueviolet;
+}
