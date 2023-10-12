@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+/* .active {
+  color: lightseagreen;
+  text-decoration: none;
+} */
+
+.activeLink {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 7px;
+  font-size: 28px;
+  border-radius: 5px;
+  margin: 15px;
+  border: 0;
+  cursor: pointer;
+  flex-wrap: wrap;
+  display: block;
+  width: 100%;
+}
+
+a {
+  color: white;
+  font-size: 20px;
+}
+
+nav {
+  background-color: darkblue;
+  padding: 5px;
+}
+
+nav a {
+  margin: 15px;
+}
