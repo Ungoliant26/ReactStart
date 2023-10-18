@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom'
 import { useState } from 'react'
 import queryString from 'query-string'
-import courses from '../data/courses'
+import courses from 'src/data/courses.js'
 
 const SORT_KEYS = ['title', 'slug', 'id']
 
