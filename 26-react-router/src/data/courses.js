@@ -16,7 +16,7 @@ const courses = [
   },
   {
     title: 'Complete C#',
-    slug: 'C#',
+    slug: 'C-Sharp',
     id: 111,
   },
 ]
